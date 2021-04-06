@@ -18,8 +18,9 @@ class SampleController extends Controller
     public function __invoke(Request $request): JsonResponse
     {
         $sampleValue = [
-            'one' => 'two',
-            'three' => 'four'
+            ['text' => '1'],
+            ['text' => 'ni'],
+            ['text' => 'さん']
         ];
         return \response()->json($sampleValue);
     }
