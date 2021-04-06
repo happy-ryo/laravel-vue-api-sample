@@ -1,9 +1,11 @@
 ## 動かす手順
 
-1. composer install
-2. npm install & npm run dev
-3. php artisan serve
-4. access to http://127.0.0.1:8000
+1. cp .env.example .env
+2. php artisan key:generate
+3. composer install
+4. npm install & npm run dev
+5. php artisan serve
+6. access to http://127.0.0.1:8000
 
 ## ザックリした説明
 
